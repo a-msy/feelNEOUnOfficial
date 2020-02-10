@@ -1,0 +1,31 @@
+/*
+Theme Name : FeelUnOfficial
+Description : FeelNEO Un Official Site Theme
+Version : 1.0.0
+*/
+:root {
+    --ayuri: #f5313d;
+    --ayapon: #b55af8;
+    --sakura: #FF5879;
+    --kirara: #64B7FF;
+    --hinami: #A6E3A8;
+}
+html {
+}
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+main {
+    background: #ffffff;
+    flex: 1;
+}
+footer {
+    margin-top: auto;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+}
