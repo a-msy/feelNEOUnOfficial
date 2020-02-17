@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                content
+                content_take
             </div>
         </div>
     </div>
