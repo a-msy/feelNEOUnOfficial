@@ -10,107 +10,120 @@ Version : 1.0.0
     --kirara: #64B7FF;
     --hinami: #A6E3A8;
 }
+
 html {
 }
+
 body {
     display: flex;
     flex-flow: column;
     min-height: 100vh;
-    font-size: 107%;
-    font-family: "Helvetica","Arial","Hiragino Kaku Gothic ProN","Hiragino Sans",YuGothic,"Yu Gothic","メイリオ",Meiryo,sans-serif;
+    font-family: "Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
 }
+
 main {
     background: #ffffff;
     flex: 1;
 }
+
 footer {
     margin-top: auto;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 100px;
     background-color: #f5f5f5;
 }
-section{
+
+section {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.header-nav{
-    box-shadow: 0px 5px 5px lightgrey;
+
+.header-nav {
+    box-shadow: 0 5px 5px lightgrey;
 }
 
-h1{
-	font-weight: 700;
-	font-size: 1.35em;
-	line-height: 1.6;
-	margin: 0;
+h1 {
+    font-weight: 700;
+    font-size: 1.35em;
+    line-height: 1.6;
+    margin: 0;
 }
-/*.container{*/
-/*    padding-left: 0px;*/
-/*    padding-right: 0px;*/
-/*}*/
-.top{
+
+.top {
     max-height: 50vh;
     width: 100%;
 }
-.top > img{
+
+.top > img {
     object-fit: cover;
     width: 100%;
     max-height: 30vh;
 }
-.content-title{
+
+.content-title {
     border-left: solid 2px black;
     padding: 10px;
 }
-.content-box{
+
+.content-box {
     padding: 10px;
 }
-.content-box-inner{
+
+.content-box-inner {
     /*border: solid 3px black;*/
     padding: 20px;
     height: 100%;
 }
-@media screen and (min-width:768px) {
+
+@media screen and (min-width: 768px) {
     /*　画面サイズが480pxからはここを読み込む　*/
-    .content-title{
+    .content-title {
         writing-mode: vertical-rl;
     }
-    .top > img{
+
+    .top > img {
         object-fit: cover;
         width: 100%;
         max-height: 30vh;
-        object-position: 0% 20%;
+        object-position: 0 20%;
     }
 }
-.content-title h1{
+
+.content-title h1 {
     letter-spacing: 4px;
     font-size: 30px;
 }
-.content-schedule, .content-lyrics, .content-videos{
+
+.content-schedule, .content-lyrics, .content-videos {
     background: red;
     overflow: hidden;
     border-bottom: solid 3px white;
 }
-.content-text{
+
+.content-text {
     padding: 30px;
-    color:white;
+    color: white;
     background-color: rgba(0, 0, 0, 0.4);
-    left:-30px;
+    left: -30px;
 }
+
 .my-parts {
     display: inline-block;
     transform: skewX(-10deg);
 }
-.my-parts > span{
+
+.my-parts > span {
     position: relative;
     display: inline-block;
     transform: skewX(10deg);
-    left:30px;
+    left: 30px;
 }
 
 /* ついか */
 /*基本の文字*/
 .entry-content p {
-    margin: 0 0 1.5em!important;
+    margin: 0 0 1.5em !important;
 }
 
 /*詳細をスライドボタン*/
@@ -124,7 +137,7 @@ h1{
     color: #000;
     background: #fff;
     cursor: pointer;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .slide-btn:first-letter {
@@ -139,32 +152,33 @@ h1{
 }
 
 /* 直近のイベント枠*/
-#latest-event{
+#latest-event {
     margin-bottom: 1rem;
     font-weight: bold;
 }
 
-.latest-event-wrapper{
-    margin: 0 0 1em 0!important;
+.latest-event-wrapper {
+    margin: 0 0 1em 0 !important;
     background-color: #fff;
     border: solid 3px #000;
     padding: 1em;
 }
 
-.latest-event-wrapper-title{
+.latest-event-wrapper-title {
     font-size: 18px;
     font-weight: bold;
     color: grey;
     margin-bottom: 10px;
 }
-.latest-event-wrapper-title:before{
+
+.latest-event-wrapper-title:before {
     font-family: FontAwesome;
     content: "\f040";
     font-size: 17px;
     margin-right: 5px;
 }
 
-.latest-event p{
+.latest-event p {
     margin: 0;
     padding: 0;
 }
@@ -174,55 +188,55 @@ h1{
  * パンくずリスト
  */
 #breadcrumb {
-  margin: 0;
-  padding: 13px 15px;
-  background: #f4f4f4;
+    margin: 0;
+    padding: 13px 15px;
+    background: #f4f4f4;
 }
 
 .archive #breadcrumb {
-  padding: 0;
-  background: transparent;
+    padding: 0;
+    background: transparent;
 }
 
 #breadcrumb ul {
-  margin: 0;
+    margin: 0;
 }
 
 #breadcrumb li {
-  display: inline;
-  list-style: none;
-  color: gray;
-  font-size: 0.87em;
+    display: inline;
+    list-style: none;
+    color: gray;
+    font-size: 0.87em;
 }
 
 #breadcrumb li:after {
     padding: 0 6px;
-    color: rgba(0,0,0,.2);
+    color: rgba(0, 0, 0, .2);
     font-family: FontAwesome;
     content: "\f0da";
     font-size: 14px;
 }
 
 #breadcrumb li a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #breadcrumb li:first-child a:before {
-  padding-right: 5px;
-  font-family: FontAwesome;
-  font-size: 1.1em;
-  font-weight: normal;
-  content: "\f041";
-  color: #42A5F5;
+    padding-right: 5px;
+    font-family: FontAwesome;
+    font-size: 1.1em;
+    font-weight: normal;
+    content: "\f041";
+    color: #42A5F5;
 }
 
-#breadcrumb li:last-child:after{
+#breadcrumb li:last-child:after {
     display: none;
 }
 
 #breadcrumb li a:hover {
-  color: gray;
-  text-decoration: none;
+    color: gray;
+    text-decoration: none;
 }
 
 #breadcrumb li a, #breadcrumb li:after {
@@ -231,62 +245,58 @@ h1{
 
 /*歌詞部分のタイトル周辺*/
 .article-header {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 768px){
-	.entry-title{
-		padding: 20px 15px 5px;
-	}
+@media only screen and (max-width: 768px) {
+    .entry-title {
+        padding: 20px 15px 5px;
+    }
 }
 
-@media only screen and (min-width: 768px){
-	.entry-content{
-		padding-right: 25px;
-		padding-left: 25px;
-	}
+.entry-content {
+    padding: 10px 15px 0;
+    margin: 0;
 }
 
-@media only screen and (min-width: 768px){
-	.article-header{
-		margin: 20px 25px 10px;
-	}
+@media only screen and (min-width: 768px) {
+    .entry-content {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 
-	.entry-title{
-    		margin-top: 15px;
-    		padding: 0;
-	}
-}
+    .article-header {
+        margin: 20px 25px 10px;
+    }
 
-.entry-content{
-	padding: 10px 15px 0;
-	margin: 0;
-}
+    .entry-title {
+        margin-top: 15px;
+        padding: 0;
+    }
 
-@media only screen and (min-width: 768px){
-	.entry-content{
-    		max-width: 80%;
-   		margin: 0 10%;
-   		padding: 0 60px;
-	}
+    .entry-content {
+        max-width: 80%;
+        margin: 0 10%;
+        padding: 0 60px;
+    }
 
-	.article-header{
-		margin: 2rem calc(10% + 60px) 1rem calc(10% + 60px);
-	}
+    .article-header {
+        margin: 2rem calc(10% + 60px) 1rem calc(10% + 60px);
+    }
 
-	#breadcrumb {
-		padding: 0;
-		background: transparent;
-	}
+    #breadcrumb {
+        padding: 0;
+        background: transparent;
+    }
 
-	#breadcrumb ul{
-		padding-left: 5px;
-	}
+    #breadcrumb ul {
+        padding-left: 5px;
+    }
 }
 
 /*歌詞部分*/
-.song-writing{
-	margin-top: 0!important;
-	font-size: 80%;
-	padding: 0 0 20px 0;
+.song-writing {
+    margin-top: 0 !important;
+    font-size: 80%;
+    padding: 0 0 20px 0;
 }

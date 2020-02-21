@@ -13,17 +13,7 @@
                 </div>
                 <div class="col-md-9">
                     <div class="row">
-                        <!--                        <div class="col-md-12 content-schedule">-->
-                        <!--                            <div class="row">-->
-                        <!--                                <div class="col-md-6 col-md-offset-6 content-text my-parts">-->
-                        <!--                                    <span>-->
-                        <!--                                        <h2>スケジュール</h2>-->
-                        <!--                                        <p>- Schedule -</p>-->
-                        <!--                                    </span>-->
-                        <!--                                </div>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
-                        <div class="col-md-12 content-lyrics">
+                        <a href="<?php echo home_url('/lyrics/'); ?>" class="col-md-12 content-lyrics">
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-6 content-text my-parts">
                                     <span>
@@ -32,8 +22,8 @@
                                     </span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-12 content-videos">
+                        </a>
+                        <a href="<?php echo home_url('/videos/'); ?>" class="col-md-12 content-videos">
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-6 content-text my-parts">
                                     <span>
@@ -42,13 +32,13 @@
                                     </span>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="schedule">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 content-box">
