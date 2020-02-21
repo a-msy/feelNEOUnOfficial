@@ -35,16 +35,16 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
+                    <a class="nav-link" href="<?php echo home_url('/'); ?>">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">VIDEOS</a>
+                    <a class="nav-link" href="<?php echo home_url('/videos/'); ?>">VIDEOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">LYRIC</a>
+                    <a class="nav-link" href="<?php echo home_url('/lyrics/'); ?>">LYRIC</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">SCHEDULE</a>
+                    <a class="nav-link" href="<?php echo home_url('/#schedule'); ?>">SCHEDULE</a>
                 </li>
             </ul>
         </div>
