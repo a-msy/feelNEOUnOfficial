@@ -1,3 +1,4 @@
+</div><!--contentの終了タグ-->
 <?php wp_footer(); ?>
 <footer>
     <div class="container">
