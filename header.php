@@ -24,7 +24,7 @@
 <div class="top">
     <img src="<?php bloginfo('template_directory'); ?>/img/top.jpg">
 </div>
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="header-nav navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
         <a class="navbar-brand" href="#">FeelNEO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
@@ -49,4 +49,6 @@
             </ul>
         </div>
     </div>
+
 </nav>
+<div id="content" class="site-content">
