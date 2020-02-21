@@ -172,7 +172,7 @@ h1 {
 }
 
 .latest-event-wrapper-title:before {
-    font-family: FontAwesome, serif;
+    font-family: FontAwesome;
     content: "\f040";
     font-size: 17px;
     margin-right: 5px;
@@ -212,7 +212,7 @@ h1 {
 #breadcrumb li:after {
     padding: 0 6px;
     color: rgba(0, 0, 0, .2);
-    font-family: FontAwesom,serif;
+    font-family: FontAwesome;
     content: "\f0da";
     font-size: 14px;
 }
@@ -223,7 +223,7 @@ h1 {
 
 #breadcrumb li:first-child a:before {
     padding-right: 5px;
-    font-family: FontAwesome,serif;
+    font-family: FontAwesome;
     font-size: 1.1em;
     font-weight: normal;
     content: "\f041";
