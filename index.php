@@ -23,12 +23,12 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="<?php echo home_url('/videos/'); ?>" class="col-md-12 content-videos">
+                        <a href="<?php echo home_url('/movies/'); ?>" class="col-md-12 content-videos">
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-6 content-text my-parts">
                                     <span>
                                         <h2>動画</h2>
-                                        <p>- Videos -</p>
+                                        <p>- Movies -</p>
                                     </span>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                         <div id="latest-event">
                             情報取得エラーか、情報取得に時間がかかっています。
                         </div>
-                        <div>
+                        <div class="slide">
                             <a id="detail" class="slide-btn">
                                 ＋イベントの詳細を見る
                             </a>

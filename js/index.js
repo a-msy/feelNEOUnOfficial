@@ -97,7 +97,10 @@ window.onload = $(function () {
                 + start[index].getDate() + "日" + latest_event_weekday);// '<br>'
 
             $('.slide-contents').html(des[index].replace(/会場|住所|場所/, '<a href = https://www.google.com/maps/search/?api=1&query=' + venue + '>会場</a>').replace(/<pre>/g, '<p>').replace(/<\/pre>/g, '</p>').replace(/\n/g, '<br>'));
-        }
+        } else {
+	    $('#latest-event').html('次のイベントは来月以降です！');
+	    $('.slide').hide();
+	}
     }, 700);
 });
 

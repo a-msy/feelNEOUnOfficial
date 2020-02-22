@@ -112,4 +112,7 @@ if (!function_exists('breadcrumb')) {
         echo $str;
     }
 }
+
+//一番上の黒いのを非表示に
+add_filter('show_admin_bar', '__return_false');
 ?>
