@@ -115,4 +115,11 @@ if (!function_exists('breadcrumb')) {
 
 //一番上の黒いのを非表示に
 add_filter('show_admin_bar', '__return_false');
+
+//画像を出す際のショートコード
+function output_image($img){
+    return '<img class="cd-img" src="'. get_template_directory_uri() .'/img/' . $img[0] . '">';
+}
+
+add_shortcode('output_img', 'output_image');
 ?>

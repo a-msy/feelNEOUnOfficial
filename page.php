@@ -20,7 +20,11 @@ get_header();
                             <h1><?php the_title(); ?></h1>
 			　　<p><?php if( is_page(9) ){
 				    echo '- Movies -';
-				} else if( is_page(2) ){
+				} else if( is_page(16) ){
+                                    echo '- CDs -';
+                                } else if( is_page(89) ){
+                                    echo '-Lyrics-';
+                                } else if( is_page(2) ){
 				    echo '- Sample -';
 				}
 				?></p>

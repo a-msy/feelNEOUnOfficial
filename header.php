@@ -22,11 +22,11 @@
 </head>
 <body>
 <div class="top">
-    <img src="<?php bloginfo('template_directory'); ?>/img/feelNEO.png">
+    <a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/feelNEO.png"></a>
 </div>
 <nav class="header-nav navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-        <a class="navbar-brand" href="#">feelNEO unofficial fan site</a>
+        <a class="navbar-brand" href="<?php echo home_url('/'); ?>">feelNEO unofficial fan site</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
                 aria-expanded="false" aria-label="ナビゲーションの切替">
             <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,13 @@
                     <a class="nav-link" href="<?php echo home_url('/'); ?>">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo home_url('/movies/'); ?>">MOVIES</a>
+                    <a class="nav-link" href="<?php echo home_url('/cds/'); ?>">CD</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo home_url('/lyrics/'); ?>">LYRIC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo home_url('/movies/'); ?>">MOVIES</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo home_url('/#schedule'); ?>">SCHEDULE</a>
