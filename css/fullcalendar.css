@@ -1460,3 +1460,18 @@ table{
     overflow-x: hidden;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 768px) {
+    /*768px以降はここを読み込む*/
+    .popup-title{
+        font-size: 1rem;
+    }
+
+    .popup-time-wrapper{
+        font-size: 0.8rem;
+    }
+
+    .popup-des-wrapper{
+        font-size: 0.8rem;
+    }
+}

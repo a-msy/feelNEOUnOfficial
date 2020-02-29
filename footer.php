@@ -25,6 +25,8 @@
 <script src='<?php bloginfo('template_directory'); ?>/js/gcal.js'></script>
 <script src='<?php bloginfo('template_directory'); ?>/js/ja.js'></script>
 <script src='<?php bloginfo('template_directory'); ?>/js/index.js'></script>
+<script src='<?php bloginfo('template_directory'); ?>/js/cd-switch.js'></script>
+<script src='<?php bloginfo('template_directory'); ?>/js/movement.js'></script>
 <!--<script src='https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js'></script>
 <script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>-->
 </html>
