@@ -2,9 +2,13 @@
 <?php wp_footer(); ?>
 <footer>
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-12">
-                content_take
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/idol_circle2016">お問い合わせ</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
